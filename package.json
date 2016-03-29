@@ -1,0 +1,30 @@
+{
+  "name": "check-domain-register",
+  "version": "1.0.0",
+  "description": "check domain wheather register",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "check-domain-register": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayin/check-domain-register.git"
+  },
+  "keywords": [
+    "domain",
+    "register"
+  ],
+  "author": "Jayin Ton",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Jayin/check-domain-register/issues"
+  },
+  "homepage": "https://github.com/Jayin/check-domain-register#readme",
+  "dependencies": {
+    "request": "^2.69.0",
+    "xml2js": "^0.4.16"
+  }
+}
